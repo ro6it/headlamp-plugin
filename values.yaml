@@ -10,7 +10,7 @@ initContainers:
 persistentVolumeClaim:
   enabled: true
   accessModes:
-    - ReadWriteMany
+    - ReadWriteOnce
   size: 1Gi
 
 volumeMounts:
